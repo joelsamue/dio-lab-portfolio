@@ -1,392 +1,305 @@
 <!DOCTYPE html>
-<html lang="pt-BR" data-theme="dark">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elidiana Andrade | Portfolio para o Lab da DIO</title>
-  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>My Web Portofolio</title>
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- CSS -->
+    <link rel='stylesheet' href='assets/css/styles.css'>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-  <header class="header">
-    <nav class="header__nav">
-      <ul class="menu menu--principal">
-        <li class="menu__item">
-          <a class="menu__link active" href="#home">
-            <span class="menu__text">Home</span>
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#projetos">
-            <span class="menu__text">Projetos</span>
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#sobre">
-            <span class="menu__text">Sobre</span>
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#contato">
-            <span class="menu__text">Contato</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="header__brand">
-      <a href="#home">
-        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
-      </a>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Joel <span>Samuel</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-rectangle"></div>
+
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I am <span>Joel Samuel</span></h1>
+            <h3 class="text-animation">
+                I am a <span></span>
+            </h3>
+            <p>
+                Technology enthusiast focused on software development, backend engineering, and data engineering. 
+                I have been developing my skills in Python, Java, databases, and software design through academic and personal projects. 
+                I enjoy solving problems, learning new technologies, and building practical solutions to real-world challenges. My goal is to continue growing as a developer, 
+                gain professional experience, and contribute to projects that create value and make a positive impact, particularly in Angola.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/joel-samuel-358671323/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="https://github.com/joelsamue">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/joelsamuel32/">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/Joel32.samuel/">
+                    <i class="bx bxl-facebook-square"></i>
+                </a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/images/IMG_20250909_225920_106 (Cópia).png" alt="Portrait of Joel Samuel">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-rectangle"></div>
+        <div class="about-img">
+            <img src="assets/images/black-man-programmer-manages-code-scripts-artificial-intelligence.jpg" alt="Illustration of a programmer working with code">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>
+                I’m an aspiring software developer who enjoys turning ideas into practical solutions through code. 
+                I’m constantly learning, experimenting with new technologies, and improving my approach to problem-solving. 
+                With an interest in backend development and data engineering, 
+                I aim to build reliable, efficient, and meaningful applications while growing as a professional and contributing to projects that make a real difference.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="service-container">
+
+            <div class="services-box">
+                <i class="bx bx-code"></i>
+                <h3>01. Software Engineer</h3>
+                <p>
+                    I build structured and maintainable software 
+                    solutions using programming languages such as Python and Java, 
+                    focusing on clean code, problem-solving, and efficient functionality.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-data"></i>
+                <h3>02. Data Engineering</h3>
+                <p>
+                    I work with data processing and transformation concepts 
+                    to help turn raw data into organized, useful information that 
+                    supports analysis and decision-making.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-git-branch"></i>
+                <h3>03. Version Control and Development Workflow</h3>
+                <p>
+                    I use Git and GitHub to manage source code, 
+                    track changes, organize projects, 
+                    and maintain a structured development workflow.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+ 
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <p class="projects-description">
+            Explore some of my projects in software development,
+            backend engineering, and data engineering.
+        </p>
+
+        <div class="projects-container">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img
+                        src="assets/images/open-laptop-desk-job-search-title-screen.jpg"
+                        alt="Job Portal application project"
+                        loading="lazy"
+                    >
+                    <span class="project-category">Java Development</span>
+                </div>
+
+                <div class="project-info">
+                    <h3>Job Portal Z</h3>
+                    <p>
+                        A Java-based job portal concept designed to connect
+                        job seekers with employers. It focuses on job
+                        listings, applications, and object-oriented
+                        programming principles.
+                    </p>
+
+                    <div class="project-footer">
+                        <span class="project-tech">Java · Spring Boot</span>
+
+                        <a href="#"
+                        class="project-link"
+                        aria-label="View Job Portal Z project">
+                            <i class="bx bx-link-external"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img
+                        src="assets/images/representation-user-experience-interface-design.jpg"
+                        alt="Interface design representing CréditoPME Connect"
+                        loading="lazy"
+                    >
+                    <span class="project-category">FinTech Concept</span>
+                </div>
+
+                <div class="project-info">
+                    <h3>CréditoPME Connect</h3>
+
+                    <p>
+                        A project concept focused on improving access to
+                        credit for small and medium-sized enterprises in
+                        Angola through organized business data and credit
+                        risk assessment.
+                    </p>
+
+                    <div class="project-footer">
+                        <span class="project-tech">Data · FinTech</span>
+
+                        <a href="#"
+                        class="project-link"
+                        aria-label="View CréditoPME Connect project">
+                            <i class="bx bx-link-external"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img
+                        src="assets/images/45140380.jpg"
+                        alt="DataOps and data workflow project"
+                        loading="lazy"
+                    >
+                    <span class="project-category">Data Engineering</span>
+                </div>
+
+                <div class="project-info">
+                    <h3>DataOps Angola</h3>
+
+                    <p>
+                        A project concept for improving data workflows
+                        through automation, data validation, and reliable
+                        pipeline management to support better
+                        decision-making.
+                    </p>
+
+                    <div class="project-footer">
+                        <span class="project-tech">Data · Automation</span>
+
+                        <a href="#"
+                        class="project-link"
+                        aria-label="View DataOps Angola project">
+                            <i class="bx bx-link-external"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="9307b0c6-2bbb-4567-92d4-d8397acaaa0d">
+            <div class="input-box"> 
+                <input type="text" name="name" autocomplete="name" placeholder="Full Name" required>
+                <input type="email" name="email" autocomplete="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="phone" name="phone" autocomplete="tel" placeholder="Phone Number" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+
+            <textarea name="message" rows="10" cols="30"
+            placeholder="Your Message"></textarea>
+            <input type="submit" placeholder="Send Message" class="btn">
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+    <div class="social">
+        <a href="https://www.linkedin.com/in/joel-samuel-358671323/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a href="https://github.com/joelsamue">
+                    <i class="bx bxl-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/joelsamuel32/">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/Joel32.samuel/">
+                    <i class="bx bxl-facebook-square"></i>
+                </a>
     </div>
-    <div class="header__toggle">
-      <i id="toggleTheme" class="bi bi-sun"></i>
-    </div>
-  </header>
-  <nav class="nav--mobile">
-    <ul class="menu menu--mobile">
-      <li class="menu__item">
-        <a class="menu__link active" href="#home">
-          <i class="menu__icon bi bi-house-door"></i>
-          <span class="menu__text">Home</span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#projetos">
-          <i class="menu__icon bi bi-window-stack"></i>
-          <span class="menu__text">Projetos</span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#sobre">
-          <i class="menu__icon bi bi-person"></i>
-          <span class="menu__text">Sobre</span>
-        </a>
-      </li>
-      <li class="menu__item">
-        <a class="menu__link" href="#contato">
-          <i class="menu__icon bi bi-envelope"></i>
-          <span class="menu__text">Contato</span>
-        </a>
-      </li>
+
+    <ul class="list">
+        <li>
+            <a href="#services">Services</a>
+        </li>
+        <li>
+            <a href="#about">About Me</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
     </ul>
-  </nav>
-
-  <main id="home">
-    <div class="main__content1">
-      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
-      <p>Elidiana Andrade, Salvador-BA, Desenvolvedora e Instrutora Front-end.</p> 
-      <ul class="menu menu--social">
-        <li>
-          <a class="menu__link" href="https://github.com/elidianaandrade" target="_blank">
-            <i class="menu__icon bi bi-github"></i>
-          </a>
-        </li>
-        <li>
-          <a class="menu__link" href="https://www.linkedin.com/in/elidianaandrade/" target="_blank">
-            <i class="menu__icon bi bi-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a class="menu__link" href="" target="_blank">
-            <i class="menu__icon bi bi-instagram"></i>
-          </a>
-        </li>
-      </ul>
-      <a href="#projetos">
-        <button class="btn btn--primary">
-          <span>Ver Projetos</span>
-          <i class="bi bi-arrow-down-right"></i>
-        </button>  
-      </a>
-    </div>
-    <div class="main__content2">
-      <iframe src="https://www.youtube.com/embed/HXKz2-Sohfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-  </main>
-
-  <section class="technologies">
-    <h2>Conhecimento nas principais tecnologias do mercado</h2>
-    <ul class="technologies__list">
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-      </li>
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-      </li>
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-      </li>
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-      </li>
-    </ul>
-  </section>
-
-  <section id="projetos" class="projects">
-    <h2>Projetos</h2>
-    <div class="projects__container">
-      <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/josisbox.jpg" alt="Capa Josi's Box">
-        <div class="card__body">
-          <h3 class="card__title">Josi’s Box Ecommerce</h3>
-          <p class="card__description">Ecommerce de Livros</p>
-          <ul class="card__list">
-            <li class="card__item">Listagem de favoritos;</li>
-            <li class="card__item">Carrinho de compras;</li>
-            <li class="card__item">Filtragem por preço e categoria.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
-          </div>
-        </div>
-      </div>
-      <div class="projects__card card--reverse">
-        <img class="card__cover" src="assets/images/projects/archstil.jpg" alt="Capa Archstil">
-        <div class="card__body">
-          <h3 class="card__title">Archstil Blog</h3>
-          <p class="card__description">A história por trás dos Estilos Arquitetônicos.</p>
-          <ul class="card__list">
-            <li class="card__item">Postagens relacionadas e em destaque;</li>
-            <li class="card__item">Filtragem por tags e categorias;</li>
-            <li class="card__item">Biografia do autor.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
-          </div>
-        </div>
-      </div>
-      <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/games-store.jpg" alt="Capa Games Store">
-        <div class="card__body">
-          <h3 class="card__title">Games Store</h3>
-          <p class="card__description">Loja online de Games.</p>
-          <ul class="card__list">
-            <li class="card__item">Listagem de favoritos;</li>
-            <li class="card__item">Carrinho de compras;</li>
-            <li class="card__item">Filtragem por preço e categoria.</li>
-          </ul>
-          <ul class="technologies__list">
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-            </li>
-            <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/SASS.svg" alt="Logo SASS">
-            </li>
-          </ul>
-          <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Prévia</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Repositório</span>
-            </button>  
-          </div>
-        </div>
-      </div>
-      <a href="https://github.com/elidianaandrade">
-        <button class="btn btn--primary">
-          <span>Ver Todos os Projetos</span>
-          <i class="bi bi-arrow-up-right"></i>
-        </button>  
-      </a>
-    </div>
-  </section>
-
-  <section id="sobre" class="about">
-    <div class="about__content1">
-      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
-      <div class="about__description">
-        <h2>Sobre mim</h2>
-        <p>Elidiana Andrade. Apaixonada por artes e tecnologia, meu primeiro "Hello World" foi na pré-adolescência quando tive contato com HTML, CSS e um pouco de JavaScript e Notepad++. Atualmente curso especialização em Desenvolvimento de Software com Metodologias Ágeis e atuo como instrutora e desenvolvedora freelance.
-        </p>  
-        <div class="about__icons">
-          <i class="bi bi-translate"></i>
-          <span>Inglês: Intermediário | Espanhol: Básico</span>
-        </div>
-        <div class="description__buttons">
-          <a href="https://www.linkedin.com/in/elidianaandrade/" target="_blank">
-            <button class="btn btn--primary">
-              <span>Conecte-se Comigo</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button> 
-          </a>
-          <a href="">
-            <button class="btn">
-              <span>Currículo</span>
-            </button>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="about__content2">
-      <div class="col1">
-        <div class="row1">
-          <h3>Formação</h3>
-          <h4>Desenvolvimento de Software com Metodologia Ágil</h4>
-          <span>Abr 2023 - Atualmente</span>
-          <div class="about__icons">
-            <i class="bi bi-bank"></i>
-            <span>Universidade Salvador</span>
-          </div>
-          <div class="about__icons">
-            <i class="bi bi-mortarboard"></i>
-            <span>Pós-graduação Lato Sensu - Especialização</span>
-          </div>
-        </div>
-        <div class="row2">
-          <h3>Experiências</h3>
-          <h4>Instrutora</h4>
-          <span>Digital Innovation One. Fev 2023 - Atualmente</span>
-          <span>Produção de conteúdos educacionais direcionados a 
-            alunos iniciantes que desejam construir uma base no Desenvolvimento Front-end.
-          </span>
-          <ul class="about__list">
-            <li class="about__item">Elaboração de ementas;</li>
-            <li class="about__item">Ministração de aulas assíncronas;</li>
-            <li class="about__item">Produção de materiais complementares.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col2">
-        <h3>Cursos</h3>
-        <div id="accordion">
-          <div class="accordion__item active">
-            <button class="accordion__header start">
-              <span>Versionamento de Código com Git e GitHub</span>
-              <i class="bi bi-caret-down-fill"></i>
-            </button>
-            <div class="accordion__body">
-              <p>
-                Digital Innovation One. Fev 2023. 2h.
-              </p>
-              <p>
-                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
-                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
-                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
-                com o repositório remoto. 
-              </p>
-            </div>
-          </div>
-          <div class="accordion__item">
-            <button class="accordion__header">
-              <span>Contribuindo em um Projeto Open Source no GitHub</span>
-              <i class="bi bi-caret-down-fill"></i>
-            </button>
-            <div class="accordion__body">
-              <p>
-                Digital Innovation One. Fev 2023. 1h.
-              </p>
-              <p>
-                Lab prático sobre colaboração em projetos de código aberto.
-              </p>
-            </div>
-          </div>
-          <div class="accordion__item">
-            <button class="accordion__header end">
-              <span>Organizando seus Estudos com os Roadmaps DIO e o Notion</span>
-              <i class="bi bi-caret-down-fill"></i>
-            </button>
-            <div class="accordion__body end">
-              <p>
-                Digital Innovation One. Fev 2023. 2h.
-              </p>
-              <p>
-                Otimização dos estudos com os Roadmaps DIO, construindo um caderno de estudos com a ferramenta Notion.
-              </p>
-            </div>
-          </div>
-        </div>
-  </section>
-  
-  <section id="contato" class="contact">
-    <h2>Contate-me</h2>
-    <p>Estou disponível para serviços e novas conexões. Contate-me via 
-      e-mail e conecte-se comigo através das minhas redes sociais.
+    <p class="copyright">
+        Joel Samuel | All Rights Reserved
     </p>
-    <ul class="menu menu--social">
-      <li>
-        <a class="menu__link" href="https://github.com/elidianaandrade" target="_blank">
-          <i class="menu__icon bi bi-github"></i>
-          <span>GitHub</span>
-        </a>
-      </li>
-      <li>
-        <a class="menu__link" href="https://www.linkedin.com/in/elidianaandrade/" target="_blank">
-          <i class="menu__icon bi bi-linkedin"></i>
-          <span>LinkedIn</span>
-        </a>
-      </li>
-      <li>
-        <a class="menu__link" href="" target="_blank">
-          <i class="menu__icon bi bi-instagram"></i>
-          <span>Instagram</span>
-        </a>
-      </li>
-    </ul>
-    <a href="mailto:elidianaandrade@outlook.com">
-      <button class="btn btn--primary">
-        <span class="email">elidianaandrade@outlook.com</span>
-      </button>  
-    </a>
-  </section>
+    </footer>
 
-  <footer>
-    <p>
-      © 2023. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
-      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
-      <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
-    </p>
-  </footer>
-  <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
